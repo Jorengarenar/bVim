@@ -5,10 +5,10 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
 include(PreventInSourceBuilds)
 
-project(Bym
+project(SHE
   VERSION 0.0.1
-  DESCRIPTION "The hex editor"
-  HOMEPAGE_URL "https://joren.ga/bym"
+  DESCRIPTION "Simple Hex Editor"
+  HOMEPAGE_URL "https://joren.ga/she"
   LANGUAGES CXX)
 
 string(TOLOWER "${CMAKE_PROJECT_NAME}" EXECUTABLE_NAME)
